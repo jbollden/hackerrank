@@ -7,3 +7,4 @@ For the following days Go has not been a selectable language, thus the solutions
 * Day 1: Data Types
 * Day 12: Inheritance
 * Day 13: Abstract Classes (seems there are no abstract classes in Go)
+* Day 14: Scope
