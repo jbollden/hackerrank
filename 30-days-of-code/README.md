@@ -8,3 +8,4 @@ For the following days Go has not been a selectable language, thus the solutions
 * Day 12: Inheritance
 * Day 13: Abstract Classes (seems there are no abstract classes in Go)
 * Day 14: Scope
+* Day 15: Linked List (compilation of this file will fail, see file for more information)
