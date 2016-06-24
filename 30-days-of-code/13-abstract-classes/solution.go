@@ -11,17 +11,13 @@ import (
 	"strings"
 )
 
-type IBook interface {
+type Book interface {
 	display()
 }
 
-type Book struct {
+type MyBook struct {
 	title string
 	author string
-}
-
-type MyBook struct {
-	Book
 	price int
 }
 
@@ -50,6 +46,6 @@ func main() {
 		}
 	}
 
-	var novel IBook = MyBook{Book{title, author}, price}
+	var novel Book = MyBook{title, author, price}
 	novel.display()
 }
