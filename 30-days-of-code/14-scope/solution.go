@@ -4,21 +4,22 @@
 package main
 
 import (
-	"fmt"
-	"strings"
-	"os"
 	"bufio"
+	"fmt"
+	"os"
 	"strconv"
+	"strings"
 )
 
 type Difference struct {
-	elements []int
+	elements          []int
 	MaximumDifference int
 }
+
 func (d *Difference) computeDifference() {
-	for i, v := range d.elements {
-		for j := i; j < len(d.elements); j++ {
-			diff := d.elements[j] - v
+	for _, v := range d.elements {
+		for _, w := range d.elements {
+			diff := w - v
 			if diff > d.MaximumDifference {
 				d.MaximumDifference = diff
 			}
@@ -28,8 +29,8 @@ func (d *Difference) computeDifference() {
 
 func getInputStr() (string, error) {
 	reader := bufio.NewReader(os.Stdin)
-    input, err := reader.ReadString('\n')
-    return strings.TrimSpace(input), err
+	input, err := reader.ReadString('\n')
+	return strings.TrimSpace(input), err
 }
 
 func main() {
