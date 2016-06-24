@@ -4,8 +4,8 @@
 package main
 
 import (
-	"fmt"
 	"bufio"
+	"fmt"
 	"os"
 	"strconv"
 	"strings"
@@ -16,9 +16,9 @@ type Book interface {
 }
 
 type MyBook struct {
-	title string
+	title  string
 	author string
-	price int
+	price  int
 }
 
 func (m MyBook) display() {
