@@ -11,4 +11,5 @@ For the following days Go has not been a selectable language, thus the solutions
 * Day 15: Linked List (compilation of this file will fail, see file for more information)
 * Day 16: Exceptions - String to Integer
 * Day 17: More Exceptions
+* Day 18: Queues and Stacks
 
