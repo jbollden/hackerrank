@@ -13,3 +13,4 @@ For the following days Go has not been a selectable language, thus the solutions
 * Day 17: More Exceptions
 * Day 18: Queues and Stacks
 * Day 19: Interfaces
+* Day 21: Generics (unable to solve this with generics)
