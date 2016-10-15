@@ -1,3 +1,5 @@
+// Algorithms / Warmup / Simple Array Sum (https://www.hackerrank.com/challenges/simple-array-sum)
+
 package main
 
 import (

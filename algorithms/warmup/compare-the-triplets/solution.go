@@ -1,3 +1,5 @@
+// Algorithms / Warmup / Compare the Triplets (https://www.hackerrank.com/challenges/compare-the-triplets)
+
 package main
 
 import (
